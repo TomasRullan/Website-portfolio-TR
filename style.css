@@ -1,7 +1,7 @@
 /* color variables for easier to remember names */
 :root {
   --primary: #238c73;
-  --secondary: #f2efef;
+  --secondary: #f0ebebfd;
   --pop: #3333FF;
 }
 
@@ -76,7 +76,7 @@ header nav ul li a:hover {
 
 /* hero styling start */
 .hero {
-  background-image: url("../images/brickwall.jpg");
+  background-image: url("./fall-background.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -94,7 +94,7 @@ header nav ul li a:hover {
   display: flex;
   justify-content: end;
   text-align: right;
-  color: lightgray;
+  color: rgb(7, 4, 4);
 }
 
 .hero .quote #quote-text {
